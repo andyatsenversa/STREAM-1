@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">AECDMF Implementation Decision Tree</text>
+  
+  <!-- Start Node -->
+  <rect x="400" y="70" width="100" height="50" rx="10" ry="10" fill="#3498db" />
+  <text x="450" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Start Assessment</text>
+  
+  <!-- First level - Organization Size -->
+  <line x1="450" y1="120" x2="450" y2="150" stroke="#2c3e50" stroke-width="2" />
+  <rect x="375" y="150" width="150" height="40" rx="5" ry="5" fill="#e74c3c" />
+  <text x="450" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Organization Size?</text>
+
+  <!-- Small Org Path -->
+  <line x1="450" y1="190" x2="200" y2="240" stroke="#2c3e50" stroke-width="2" />
+  <rect x="125" y="240" width="150" height="40" rx="5" ry="5" fill="#2ecc71" />
+  <text x="200" y="265" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">&lt;20 employees</text>
+  
+  <!-- Medium Org Path -->
+  <line x1="450" y1="190" x2="450" y2="240" stroke="#2c3e50" stroke-width="2" />
+  <rect x="375" y="240" width="150" height="40" rx="5" ry="5" fill="#2ecc71" />
+  <text x="450" y="265" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">20-50 employees</text>
+  
+  <!-- Large Org Path -->
+  <line x1="450" y1="190" x2="700" y2="240" stroke="#2c3e50" stroke-width="2" />
+  <rect x="625" y="240" width="150" height="40" rx="5" ry="5" fill="#2ecc71" />
+  <text x="700" y="265" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">&gt;50 employees</text>
+  
+  <!-- Small Org - Regulatory Exposure -->
+  <line x1="200" y1="280" x2="200" y2="310" stroke="#2c3e50" stroke-width="2" />
+  <rect x="125" y="310" width="150" height="40" rx="5" ry="5" fill="#e67e22" />
+  <text x="200" y="335" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Regulatory Exposure?</text>
+  
+  <!-- Small Org - High Regulatory -->
+  <line x1="200" y1="350" x2="125" y2="380" stroke="#2c3e50" stroke-width="2" />
+  <rect x="50" y="380" width="150" height="40" rx="5" ry="5" fill="#9b59b6" />
+  <text x="125" y="405" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">High</text>
+  
+  <!-- Small Org - Low Regulatory -->
+  <line x1="200" y1="350" x2="275" y2="380" stroke="#2c3e50" stroke-width="2" />
+  <rect x="200" y="380" width="150" height="40" rx="5" ry="5" fill="#9b59b6" />
+  <text x="275" y="405" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Low</text>
+  
+  <!-- Small Org - High Regulatory Outcome -->
+  <line x1="125" y1="420" x2="125" y2="450" stroke="#2c3e50" stroke-width="2" />
+  <rect x="25" y="450" width="200" height="60" rx="5" ry="5" fill="#f1c40f" />
+  <text x="125" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Prioritize compliance reporting</text>
+  <text x="125" y="490" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">and data governance</text>
+  
+  <!-- Small Org - Low Regulatory Outcome -->
+  <line x1="275" y1="420" x2="275" y2="450" stroke="#2c3e50" stroke-width="2" />
+  <rect x="175" y="450" width="200" height="60" rx="5" ry="5" fill="#f1c40f" />
+  <text x="275" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Focus on field data quality</text>
+  <text x="275" y="490" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">and operational efficiency</text>
+  
+  <!-- Medium Org - Project Types -->
+  <line x1="450" y1="280" x2="450" y2="310" stroke="#2c3e50" stroke-width="2" />
+  <rect x="375" y="310" width="150" height="40" rx="5" ry="5" fill="#e67e22" />
+  <text x="450" y="335" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Current Projects?</text>
+  
+  <!-- Medium Org - Government Projects -->
+  <line x1="450" y1="350" x2="375" y2="380" stroke="#2c3e50" stroke-width="2" />
+  <rect x="300" y="380" width="150" height="40" rx="5" ry="5" fill="#9b59b6" />
+  <text x="375" y="405" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Government/Regulated</text>
+  
+  <!-- Medium Org - Commercial Projects -->
+  <line x1="450" y1="350" x2="525" y2="380" stroke="#2c3e50" stroke-width="2" />
+  <rect x="450" y="380" width="150" height="40" rx="5" ry="5" fill="#9b59b6" />
+  <text x="525" y="405" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Commercial</text>
+  
+  <!-- Medium Org - Government Outcome -->
+  <line x1="375" y1="420" x2="375" y2="450" stroke="#2c3e50" stroke-width="2" />
+  <rect x="275" y="450" width="200" height="60" rx="5" ry="5" fill="#f1c40f" />
+  <text x="375" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Focus on compliance and</text>
+  <text x="375" y="490" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">governance framework</text>
+  
+  <!-- Medium Org - Commercial Outcome -->
+  <line x1="525" y1="420" x2="525" y2="450" stroke="#2c3e50" stroke-width="2" />
+  <rect x="425" y="450" width="200" height="60" rx="5" ry="5" fill="#f1c40f" />
+  <text x="525" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Focus on efficiency and</text>
+  <text x="525" y="490" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">quality management</text>
+  
+  <!-- Large Org - Structure -->
+  <line x1="700" y1="280" x2="700" y2="310" stroke="#2c3e50" stroke-width="2" />
+  <rect x="625" y="310" width="150" height="40" rx="5" ry="5" fill="#e67e22" />
+  <text x="700" y="335" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Organizational Structure?</text>
+  
+  <!-- Large Org - Centralized -->
+  <line x1="700" y1="350" x2="625" y2="380" stroke="#2c3e50" stroke-width="2" />
+  <rect x="550" y="380" width="150" height="40" rx="5" ry="5" fill="#9b59b6" />
+  <text x="625" y="405" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Centralized</text>
+  
+  <!-- Large Org - Decentralized -->
+  <line x1="700" y1="350" x2="775" y2="380" stroke="#2c3e50" stroke-width="2" />
+  <rect x="700" y="380" width="150" height="40" rx="5" ry="5" fill="#9b59b6" />
+  <text x="775" y="405" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Decentralized</text>
+  
+  <!-- Large Org - Centralized Outcome -->
+  <line x1="625" y1="420" x2="625" y2="450" stroke="#2c3e50" stroke-width="2" />
+  <rect x="525" y="450" width="200" height="60" rx="5" ry="5" fill="#f1c40f" />
+  <text x="625" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Organization-wide approach</text>
+  <text x="625" y="490" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">with centralized governance</text>
+  
+  <!-- Large Org - Decentralized Outcome -->
+  <line x1="775" y1="420" x2="775" y2="450" stroke="#2c3e50" stroke-width="2" />
+  <rect x="675" y="450" width="200" height="60" rx="5" ry="5" fill="#f1c40f" />
+  <text x="775" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Business unit pilots first,</text>
+  <text x="775" y="490" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">then federated governance</text>
+  
+  <!-- Resources Question -->
+  <line x1="450" y1="120" x2="800" y2="150" stroke="#2c3e50" stroke-width="2" />
+  <rect x="725" y="150" width="150" height="40" rx="5" ry="5" fill="#e74c3c" />
+  <text x="800" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Available Resources?</text>
+  
+  <!-- Limited Resources -->
+  <line x1="800" y1="190" x2="800" y2="530" stroke="#2c3e50" stroke-width="2" />
+  <rect x="725" y="530" width="150" height="40" rx="5" ry="5" fill="#1abc9c" />
+  <text x="800" y="555" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Limited</text>
+  
+  <!-- Limited Resources Outcome -->
+  <line x1="800" y1="570" x2="700" y2="570" stroke="#2c3e50" stroke-width="2" />
+  <line x1="700" y1="570" x2="700" y2="540" stroke="#2c3e50" stroke-width="2" />
+  <rect x="600" y="540" width="200" height="60" rx="5" ry="5" fill="#f1c40f" />
+  <text x="700" y="560" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Focus on highest-impact</text>
+  <text x="700" y="580" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">dimension with minimal resources</text>
+  
+  <!-- Legend -->
+  <rect x="50" y="530" width="20" height="20" fill="#e74c3c" />
+  <text x="75" y="545" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" dominant-baseline="middle">Decision Point</text>
+  
+  <rect x="50" y="560" width="20" height="20" fill="#2ecc71" />
+  <text x="75" y="575" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" dominant-baseline="middle">Organization Characteristic</text>
+  
+  <rect x="200" y="530" width="20" height="20" fill="#e67e22" />
+  <text x="225" y="545" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" dominant-baseline="middle">Secondary Factor</text>
+  
+  <rect x="200" y="560" width="20" height="20" fill="#f1c40f" />
+  <text x="225" y="575" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" dominant-baseline="middle">Implementation Approach</text>
+  
+  <rect x="350" y="530" width="20" height="20" fill="#9b59b6" />
+  <text x="375" y="545" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" dominant-baseline="middle">Specific Characteristic</text>
+  
+  <rect x="350" y="560" width="20" height="20" fill="#3498db" />
+  <text x="375" y="575" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" dominant-baseline="middle">Start/End Point</text>
+</svg>

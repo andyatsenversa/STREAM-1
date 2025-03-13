@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <!-- Background -->
+  <rect width="900" height="500" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">AECDMF Maturity Levels</text>
+  
+  <!-- Maturity Level Columns -->
+  <g>
+    <!-- Column Headers -->
+    <rect x="100" y="70" width="140" height="50" fill="#3498db" />
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Level 1</text>
+    <text x="170" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Initial (Basic)</text>
+    
+    <rect x="240" y="70" width="140" height="50" fill="#2980b9" />
+    <text x="310" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Level 2</text>
+    <text x="310" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Developing (Operational)</text>
+    
+    <rect x="380" y="70" width="140" height="50" fill="#2471a3" />
+    <text x="450" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Level 3</text>
+    <text x="450" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Defined (Structured)</text>
+    
+    <rect x="520" y="70" width="140" height="50" fill="#1f618d" />
+    <text x="590" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Level 4</text>
+    <text x="590" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Managed (Analytical)</text>
+    
+    <rect x="660" y="70" width="140" height="50" fill="#154360" />
+    <text x="730" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Level 5</text>
+    <text x="730" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Optimizing (Innovative)</text>
+  </g>
+  
+  <!-- Dimension Row Headings -->
+  <g>
+    <rect x="20" y="130" width="80" height="50" fill="#e74c3c" />
+    <text x="60" y="160" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Data Strategy &amp; Governance</text>
+    
+    <rect x="20" y="180" width="80" height="50" fill="#e67e22" />
+    <text x="60" y="210" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Field Data Collection</text>
+    
+    <rect x="20" y="230" width="80" height="50" fill="#f1c40f" />
+    <text x="60" y="260" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Scientific Data Integrity</text>
+    
+    <rect x="20" y="280" width="80" height="50" fill="#2ecc71" />
+    <text x="60" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Compliance Reporting</text>
+    
+    <rect x="20" y="330" width="80" height="50" fill="#1abc9c" />
+    <text x="60" y="360" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Data Architecture</text>
+    
+    <rect x="20" y="380" width="80" height="50" fill="#9b59b6" />
+    <text x="60" y="410" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Project Data Lifecycle</text>
+    
+    <rect x="20" y="430" width="80" height="50" fill="#34495e" />
+    <text x="60" y="460" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Data Security &amp; Privacy</text>
+  </g>
+  
+  <!-- Level 1 Descriptions -->
+  <g>
+    <rect x="100" y="130" width="140" height="50" fill="#ebf5fb" stroke="#3498db" />
+    <text x="170" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">No formal strategy or governance</text>
+    <text x="170" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Ad hoc approaches to data</text>
+    
+    <rect x="100" y="180" width="140" height="50" fill="#ebf5fb" stroke="#3498db" />
+    <text x="170" y="205" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Inconsistent collection methods</text>
+    <text x="170" y="220" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Limited validation</text>
+    
+    <rect x="100" y="230" width="140" height="50" fill="#ebf5fb" stroke="#3498db" />
+    <text x="170" y="255" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Minimal metadata</text>
+    <text x="170" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">No formal quality controls</text>
+    
+    <rect x="100" y="280" width="140" height="50" fill="#ebf5fb" stroke="#3498db" />
+    <text x="170" y="305" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Reactive approach</text>
+    <text x="170" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Ad hoc reporting</text>
+    
+    <rect x="100" y="330" width="140" height="50" fill="#ebf5fb" stroke="#3498db" />
+    <text x="170" y="355" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">No defined architecture</text>
+    <text x="170" y="370" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Siloed data storage</text>
+    
+    <rect x="100" y="380" width="140" height="50" fill="#ebf5fb" stroke="#3498db" />
+    <text x="170" y="405" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">No formal project data planning</text>
+    <text x="170" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Ad hoc handoffs</text>
+    
+    <rect x="100" y="430" width="140" height="50" fill="#ebf5fb" stroke="#3498db" />
+    <text x="170" y="455" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Basic password protection</text>
+    <text x="170" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">No formal security controls</text>
+  </g>
+  
+  <!-- Level 2 Descriptions -->
+  <g>
+    <rect x="240" y="130" width="140" height="50" fill="#e1f0fa" stroke="#2980b9" />
+    <text x="310" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Basic documented strategy</text>
+    <text x="310" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Some governance roles</text>
+    
+    <rect x="240" y="180" width="140" height="50" fill="#e1f0fa" stroke="#2980b9" />
+    <text x="310" y="205" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Standard templates for common</text>
+    <text x="310" y="220" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">data types, basic validation</text>
+    
+    <rect x="240" y="230" width="140" height="50" fill="#e1f0fa" stroke="#2980b9" />
+    <text x="310" y="255" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Basic metadata standards</text>
+    <text x="310" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Inconsistent implementation</text>
+    
+    <rect x="240" y="280" width="140" height="50" fill="#e1f0fa" stroke="#2980b9" />
+    <text x="310" y="305" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Basic reporting templates</text>
+    <text x="310" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Manual compilation</text>
+    
+    <rect x="240" y="330" width="140" height="50" fill="#e1f0fa" stroke="#2980b9" />
+    <text x="310" y="355" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Basic file organization</text>
+    <text x="310" y="370" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Limited integration</text>
+    
+    <rect x="240" y="380" width="140" height="50" fill="#e1f0fa" stroke="#2980b9" />
+    <text x="310" y="405" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Basic handoff procedures</text>
+    <text x="310" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Inconsistent implementation</text>
+    
+    <rect x="240" y="430" width="140" height="50" fill="#e1f0fa" stroke="#2980b9" />
+    <text x="310" y="455" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Basic access controls</text>
+    <text x="310" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Some security awareness</text>
+  </g>
+  
+  <!-- Level 3 Descriptions -->
+  <g>
+    <rect x="380" y="130" width="140" height="50" fill="#d4e6f1" stroke="#2471a3" />
+    <text x="450" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Documented strategy with</text>
+    <text x="450" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">formal governance structure</text>
+    
+    <rect x="380" y="180" width="140" height="50" fill="#d4e6f1" stroke="#2471a3" />
+    <text x="450" y="205" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Standardized collection across</text>
+    <text x="450" y="220" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">projects, consistent validation</text>
+    
+    <rect x="380" y="230" width="140" height="50" fill="#d4e6f1" stroke="#2471a3" />
+    <text x="450" y="255" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Comprehensive metadata standards</text>
+    <text x="450" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Quality controls implemented</text>
+    
+    <rect x="380" y="280" width="140" height="50" fill="#d4e6f1" stroke="#2471a3" />
+    <text x="450" y="305" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Standardized reporting process</text>
+    <text x="450" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Documented audit trails</text>
+    
+    <rect x="380" y="330" width="140" height="50" fill="#d4e6f1" stroke="#2471a3" />
+    <text x="450" y="355" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Defined data models</text>
+    <text x="450" y="370" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Standardized integration</text>
+    
+    <rect x="380" y="380" width="140" height="50" fill="#d4e6f1" stroke="#2471a3" />
+    <text x="450" y="405" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Formal lifecycle management</text>
+    <text x="450" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Consistent handoff procedures</text>
+    
+    <rect x="380" y="430" width="140" height="50" fill="#d4e6f1" stroke="#2471a3" />
+    <text x="450" y="455" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Formal security policies</text>
+    <text x="450" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Data classification implemented</text>
+  </g>
+  
+  <!-- Level 4 Descriptions -->
+  <g>
+    <rect x="520" y="130" width="140" height="50" fill="#c5dbef" stroke="#1f618d" />
+    <text x="590" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Measured governance effectiveness</text>
+    <text x="590" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Quantitative performance metrics</text>
+    
+    <rect x="520" y="180" width="140" height="50" fill="#c5dbef" stroke="#1f618d" />
+    <text x="590" y="205" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Automated data collection and</text>
+    <text x="590" y="220" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">validation, quality metrics</text>
+    
+    <rect x="520" y="230" width="140" height="50" fill="#c5dbef" stroke="#1f618d" />
+    <text x="590" y="255" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Advanced quality management</text>
+    <text x="590" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Data lineage tracking</text>
+    
+    <rect x="520" y="280" width="140" height="50" fill="#c5dbef" stroke="#1f618d" />
+    <text x="590" y="305" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Automated compliance reporting</text>
+    <text x="590" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Quantitative monitoring</text>
+    
+    <rect x="520" y="330" width="140" height="50" fill="#c5dbef" stroke="#1f618d" />
+    <text x="590" y="355" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Integrated data architecture</text>
+    <text x="590" y="370" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Performance optimization</text>
+    
+    <rect x="520" y="380" width="140" height="50" fill="#c5dbef" stroke="#1f618d" />
+    <text x="590" y="405" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Measured lifecycle performance</text>
+    <text x="590" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Optimized data reuse</text>
+    
+    <rect x="520" y="430" width="140" height="50" fill="#c5dbef" stroke="#1f618d" />
+    <text x="590" y="455" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Advanced security controls</text>
+    <text x="590" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Active monitoring and alerts</text>
+  </g>
+  
+  <!-- Level 5 Descriptions -->
+  <g>
+    <rect x="660" y="130" width="140" height="50" fill="#aed6f1" stroke="#154360" />
+    <text x="730" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Data-driven culture embedded</text>
+    <text x="730" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Continuous strategy evolution</text>
+    
+    <rect x="660" y="180" width="140" height="50" fill="#aed6f1" stroke="#154360" />
+    <text x="730" y="205" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Innovative collection technologies</text>
+    <text x="730" y="220" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Predictive quality management</text>
+    
+    <rect x="660" y="230" width="140" height="50" fill="#aed6f1" stroke="#154360" />
+    <text x="730" y="255" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Industry-leading scientific practices</text>
+    <text x="730" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Contributes to industry standards</text>
+    
+    <rect x="660" y="280" width="140" height="50" fill="#aed6f1" stroke="#154360" />
+    <text x="730" y="305" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Predictive compliance management</text>
+    <text x="730" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Continuous regulatory adaptation</text>
+    
+    <rect x="660" y="330" width="140" height="50" fill="#aed6f1" stroke="#154360" />
+    <text x="730" y="355" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Adaptive data architecture</text>
+    <text x="730" y="370" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Advanced analytics optimization</text>
+    
+    <rect x="660" y="380" width="140" height="50" fill="#aed6f1" stroke="#154360" />
+    <text x="730" y="405" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Optimized lifecycle management</text>
+    <text x="730" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Innovation in project data usage</text>
+    
+    <rect x="660" y="430" width="140" height="50" fill="#aed6f1" stroke="#154360" />
+    <text x="730" y="455" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Proactive security intelligence</text>
+    <text x="730" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Industry-leading privacy practices</text>
+  </g>
+</svg>

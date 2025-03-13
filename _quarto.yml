@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "STREAM"
+  subtitle: "Strategic Technology Readiness for Environmental Assessment and Management"
+  author: "Andrew Owen Barker"
+  date: "13/03/2025"
+  chapters:
+    - index.qmd
+    - executive-summary.md
+    - framework-report.md
+    - part: "Appendicies"
+      chapters: 
+      - assessment-questionnaires.md
+      - implementation-templates.md
+      - regulatory-reference.md
+      - case-studies.md
+      - field-data-template.md
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: minty
+
+

@@ -1,0 +1,85 @@
+![Framework Cover Image](stream-logo.svg)
+
+**Version 1.0 | March 2025**
+# Preface
+
+---
+
+## About This Framework
+
+The Strategic Technology Readiness for Environmental Assessment and Management Framework (STREAM) provides a focussed approach for environmental consultancies to assess and improve their data management capabilities. Specifically designed for small to medium Australian firms, this framework addresses the unique challenges of environmental consulting, including field data collection, scientific data integrity, compliance reporting, and environmental monitoring.
+
+## Why Data Maturity Matters
+
+Environmental consultancies operate in a data-intensive industry where the quality, reliability, and accessibility of data directly impact business success. As regulatory requirements become more stringent and clients demand greater insights, effective data management has evolved from an operational concern to a strategic imperative.
+
+:::{.callout-tip}
+## Organisations with mature data practices benefit from:
+
+- Enhanced scientific integrity and defensibility of findings
+- Streamlined regulatory compliance and reporting
+- Improved operational efficiency and project delivery
+- Reduced risk of data quality issues and rework
+- Competitive advantage through data-driven insights
+- Greater client confidence in deliverables
+:::
+
+## Framework Features
+
+The STREAM was developed through analysis of established data maturity frameworks, adapted specifically for environmental consulting applications. :
+
+:::{.callout-note}
+## Key features include:
+- **Multi-level assessment** across executive, business unit, and team tiers
+- **Practical implementation roadmap** tailored to organization size
+- **Seven core dimensions** addressing critical environmental data challenges
+- **Australian regulatory alignment** with federal and state requirements
+- **Resource-conscious approach** for SME implementation
+- **Field-proven methodologies** validated through industry application
+:::
+
+## How to Use This Webbook
+
+This webbook contains the complete STREAM framework, implementation guidance, and supporting materials. Navigate through the following sections to explore the framework:
+
+1. [Framework Overview](framework-overview.md)
+2. [Assessment Methodology](assessment-methodology.md)
+3. [Maturity Dimensions and Levels](maturity-dimensions.md)
+4. [Implementation Roadmap](implementation-roadmap.md)
+5. [Industry-Specific Adaptations](industry-adaptations.md)
+6. [Case Studies](case-studies.md)
+7. [Assessment Tools](assessment-tools.md)
+8. [Implementation Templates](implementation-templates.md)
+9. [Regulatory Reference](regulatory-reference.md)
+
+## Getting Started
+
+We recommend beginning with the [Framework Overview](framework-overview.md) to understand the STREAM structure and approach. Then proceed to the [Assessment Methodology](assessment-methodology.md) to conduct your initial maturity evaluation.
+
+
+:::{.callout-tip}
+## For organizations looking to quickly implement improvements:
+
+1. Complete the executive-level assessment to establish leadership alignment
+2. Identify 1-2 high-priority dimensions based on business impact
+3. Follow the implementation roadmap for your organization size
+4. Utilize the templates and tools provided to accelerate adoption
+:::
+
+## About the Authors
+
+This framework was developed by an environmental data professional with decades of experience helping Australian firms handle their environmental data to deliver on decision making. The approach combines global best practices with practical insights from the Australian environmental sector.
+
+## Acknowledgments
+
+The development of this framework was motivated by a gap in the availability of tailored frameworks specifically designed to meet the unique needs of SME Environmental groups. Existing data maturity models, such as the EDM Council's DCAM, DAMA-DMBOK, the CMMI Data Management Maturity Model, and the FAIR Principles, while valuable, often prove too comprehensive or too technical for the specialised requirements of an environmental consultancy. These models, although well-established, tend to be overly broad and not sufficiently focused on the specific challenges faced by environmental SMEs. Our framework aims to address this by providing a more targeted approach for the distinct needs and operational contexts of environmental consultancies. I want to acknowledge the significant contributions the pioneering data frameworks have made to advancing data management practices across finance and other industries. Our work builds on the shoulders of these giants by offering a novel, specialised framework that is entirely our own, designed to complement and enhance the existing landscape of data management solutions.
+
+## Contact and Support
+
+For questions, feedback, or implementation support, please contact:
+
+Website: https://andbarker.github.io/STREAM 
+
+---
+
+© 2025 Strategic Technology Readiness for Environmental Assessment and Management (STREAM)

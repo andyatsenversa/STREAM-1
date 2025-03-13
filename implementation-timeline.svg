@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <!-- Background -->
+  <rect width="900" height="500" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">AECDMF Implementation Timeline</text>
+  
+  <!-- Timeline Background -->
+  <rect x="100" y="80" width="700" height="380" fill="#ecf0f1" rx="10" ry="10" />
+  
+  <!-- Timeline Months -->
+  <g>
+    <line x1="150" y1="110" x2="150" y2="430" stroke="#bdc3c7" stroke-width="1" />
+    <text x="150" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Month 1</text>
+    
+    <line x1="250" y1="110" x2="250" y2="430" stroke="#bdc3c7" stroke-width="1" />
+    <text x="250" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Month 3</text>
+    
+    <line x1="350" y1="110" x2="350" y2="430" stroke="#bdc3c7" stroke-width="1" />
+    <text x="350" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Month 6</text>
+    
+    <line x1="450" y1="110" x2="450" y2="430" stroke="#bdc3c7" stroke-width="1" />
+    <text x="450" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Month 9</text>
+    
+    <line x1="550" y1="110" x2="550" y2="430" stroke="#bdc3c7" stroke-width="1" />
+    <text x="550" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Month 12</text>
+    
+    <line x1="650" y1="110" x2="650" y2="430" stroke="#bdc3c7" stroke-width="1" />
+    <text x="650" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Month 15</text>
+    
+    <line x1="750" y1="110" x2="750" y2="430" stroke="#bdc3c7" stroke-width="1" />
+    <text x="750" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Month 18</text>
+  </g>
+  
+  <!-- Phase Labels -->
+  <g>
+    <text x="90" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#2c3e50">Assessment</text>
+    <text x="90" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#2c3e50">Foundation</text>
+    <text x="90" y="290" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#2c3e50">Standardization</text>
+    <text x="90" y="360" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#2c3e50">Optimization</text>
+  </g>
+  
+  <!-- Timelines for Small Org -->
+  <g>
+    <!-- Assessment Phase -->
+    <rect x="150" y="135" width="60" height="30" rx="5" ry="5" fill="#3498db" />
+    <text x="180" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Small</text>
+    
+    <!-- Foundation Phase -->
+    <rect x="150" y="205" width="100" height="30" rx="5" ry="5" fill="#3498db" />
+    <text x="200" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Small</text>
+    
+    <!-- Standardization Phase -->
+    <rect x="250" y="275" width="100" height="30" rx="5" ry="5" fill="#3498db" />
+    <text x="300" y="295" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Small</text>
+    
+    <!-- Optimization Phase -->
+    <rect x="350" y="345" width="150" height="30" rx="5" ry="5" fill="#3498db" opacity="0.7" />
+    <text x="425" y="365" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Small (Optional)</text>
+  </g>
+  
+  <!-- Timelines for Medium Org -->
+  <g>
+    <!-- Assessment Phase -->
+    <rect x="150" y="135" width="100" height="30" rx="5" ry="5" fill="#2ecc71" />
+    <text x="200" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Medium</text>
+    
+    <!-- Foundation Phase -->
+    <rect x="250" y="205" width="100" height="30" rx="5" ry="5" fill="#2ecc71" />
+    <text x="300" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Medium</text>
+    
+    <!-- Standardization Phase -->
+    <rect x="350" y="275" width="150" height="30" rx="5" ry="5" fill="#2ecc71" />
+    <text x="425" y="295" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Medium</text>
+    
+    <!-- Optimization Phase -->
+    <rect x="500" y="345" width="150" height="30" rx="5" ry="5" fill="#2ecc71" />
+    <text x="575" y="365" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Medium</text>
+  </g>
+  
+  <!-- Timelines for Large Org -->
+  <g>
+    <!-- Assessment Phase -->
+    <rect x="150" y="135" width="150" height="30" rx="5" ry="5" fill="#e74c3c" />
+    <text x="225" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Large</text>
+    
+    <!-- Foundation Phase -->
+    <rect x="300" y="205" width="150" height="30" rx="5" ry="5" fill="#e74c3c" />
+    <text x="375" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Large</text>
+    
+    <!-- Standardization Phase -->
+    <rect x="450" y="275" width="200" height="30" rx="5" ry="5" fill="#e74c3c" />
+    <text x="550" y="295" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Large</text>
+    
+    <!-- Optimization Phase -->
+    <rect x="650" y="345" width="100" height="30" rx="5" ry="5" fill="#e74c3c" />
+    <text x="700" y="365" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Large</text>
+  </g>
+  
+  <!-- Milestones -->
+  <g>
+    <!-- Assessment Milestone -->
+    <circle cx="210" cy="150" r="8" fill="white" stroke="#7f8c8d" stroke-width="2" />
+    <text x="210" y="180" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Baseline</text>
+    <text x="210" y="190" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Report</text>
+    
+    <!-- Foundation Milestone -->
+    <circle cx="250" cy="220" r="8" fill="white" stroke="#7f8c8d" stroke-width="2" />
+    <text x="250" y="240" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Governance</text>
+    <text x="250" y="250" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Structure</text>
+    
+    <!-- Standardization Milestone -->
+    <circle cx="350" cy="290" r="8" fill="white" stroke="#7f8c8d" stroke-width="2" />
+    <text x="350" y="310" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Data</text>
+    <text x="350" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Standards</text>
+    
+    <circle cx="450" cy="290" r="8" fill="white" stroke="#7f8c8d" stroke-width="2" />
+    <text x="450" y="310" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Quality</text>
+    <text x="450" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Framework</text>
+    
+    <!-- Optimization Milestone -->
+    <circle cx="550" cy="360" r="8" fill="white" stroke="#7f8c8d" stroke-width="2" />
+    <text x="550" y="380" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Metrics</text>
+    <text x="550" y="390" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Program</text>
+    
+    <circle cx="650" cy="360" r="8" fill="white" stroke="#7f8c8d" stroke-width="2" />
+    <text x="650" y="380" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Analytics</text>
+    <text x="650" y="390" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Capability</text>
+  </g>
+  
+  <!-- Legend -->
+  <rect x="600" y="430" width="20" height="15" fill="#3498db" />
+  <text x="625" y="442" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" dominant-baseline="middle">Small Org (&lt;20 employees)</text>
+  
+  <rect x="600" y="450" width="20" height="15" fill="#2ecc71" />
+  <text x="625" y="462" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" dominant-baseline="middle">Medium Org (20-50 employees)</text>
+  
+  <rect x="600" y="470" width="20" height="15" fill="#e74c3c" />
+  <text x="625" y="482" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" dominant-baseline="middle">Large Org (50-100 employees)</text>
+</svg>
